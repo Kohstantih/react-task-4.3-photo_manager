@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+
+  width: 100%;
+  height: 100%;
+
+  padding: 50px;
+}
+
+
+.box_trap {
+  width: 100%;
+  height: 300px;
+  
+  position: relative;
+}
+
+.file-loader {
+    width: 100%;
+    height: 100%;
+
+    cursor: pointer;
+}
+
+.trap {
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    border: 1px solid black;
+    border-radius: 10px;
+
+    background:white;
+
+    pointer-events: none;
+}
+
+.trap_title {
+    font-size: 30px;
+}
+
+.box_preview {
+    margin-top: 30px;
+    display: flex;
+}
+
+.preview {
+    width: 200px;
+    max-width: 200px;
+
+    position: relative;
+
+    border: 1px solid black;
+
+    margin-right: 20px;
+}
+
+.preview_img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.btn-del {
+    position: absolute;
+    top: -15px; 
+    right: -15px;
+
+    width: 30px;
+    height: 30px;
+
+    font-size: 1.3em;
+
+    border: 1px solid black;
+    border-radius: 50%;
+
+    background-color: white;
+}
+
+.btn-del:hover {
+  font-size: 1.4em;
+}
+
+.btn-del:active {
+  font-size: 1.3em;
+}
+
